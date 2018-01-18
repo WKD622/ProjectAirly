@@ -11,6 +11,6 @@ public class JsonAnalizer {
         JsonObject jobject = jelement.getAsJsonObject();
         jobject = jobject.getAsJsonObject("currentMeasurements");
         JsonArray jarray = jobject.getAsJsonObject("currentMeasurements").getAsJsonArray();
-
+        return "lala";
     }
 }

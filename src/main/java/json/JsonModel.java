@@ -1,5 +1,8 @@
 package json;
 
-public class JsonModel {
+import java.util.List;
 
+public class JsonModel {
+    CurrentMeasurements currentMeasurements;
+    List<Forecast> forecast;
 }
