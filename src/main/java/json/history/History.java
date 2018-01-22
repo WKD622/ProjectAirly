@@ -1,9 +1,9 @@
-package json;
+package json.history;
 
-public class Forecast {
-    String fromDateTime;
-    Measurments measurments;
-    String tillDateTime;
+public class History {
+    private String fromDateTime;
+    private Measurments measurements;
+    private String tillDateTime;
 
     public String getFromDateTime() {
         return fromDateTime;
@@ -14,11 +14,11 @@ public class Forecast {
     }
 
     public Measurments getMeasurments() {
-        return measurments;
+        return measurements;
     }
 
     public void setMeasurments(Measurments measurments) {
-        this.measurments = measurments;
+        this.measurements = measurements;
     }
 
     public String getTillDateTime() {
@@ -33,7 +33,7 @@ public class Forecast {
     public String toString() {
         StringBuilder sb = new StringBuilder();
         sb.append("fromDateTime = " + fromDateTime + "\n");
-        sb.append(measurments.toString() + "\n");
+        sb.append(measurements.toString() + "\n");
         sb.append("tillDateTime = " + tillDateTime);
         return  sb.toString();
     }
