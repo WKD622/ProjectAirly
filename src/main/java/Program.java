@@ -23,8 +23,8 @@ public class Program {
         JsonModel jsonModel = gson.fromJson(json, JsonModel.class);
 
         UIGenerator uiGenerator = new UIGenerator();
-        //System.out.println(uiGenerator.showPresent(jsonModel));
-        //System.out.println("\n-------------------------------------------------------\n");
+        System.out.println(uiGenerator.showPresent(jsonModel));
+        System.out.println("\n-------------------------------------------------------\n");
         System.out.println(uiGenerator.showHistory(jsonModel, "SENSOR MESSAGE", "SENSOR MESSAGE"));
 
     }
