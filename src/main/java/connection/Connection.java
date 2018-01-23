@@ -12,7 +12,7 @@ public class Connection {
     public String connect(String url, String token) throws IOException {
         CloseableHttpClient client = HttpClientBuilder.create().build();
         HttpGet httpGet = new HttpGet(url);
-        httpGet.setHeader("apikey", "97ff2a53cb3e46c4a47f703a888bf8c0");
+        httpGet.setHeader("apikey", token);
         HttpResponse httpresponse = client.execute(httpGet);
         return EntityUtils.toString(httpresponse.getEntity());
     }
