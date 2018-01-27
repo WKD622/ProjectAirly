@@ -6,6 +6,23 @@ import json.UIGenerator;
 
 import java.io.IOException;
 
+/*
+Przykładowe wywołanie
+Jeśli chcemy aktualnego warunki dla konkretnego id czujnika wpisujemy (c od current)
+-idc id_czujnika -apkikey tutaj_wpisujemy_apikey
+np -idc 1060 -apikey 97ff2a53cb3e46c4a47f703a888bf8c0
+
+Jeśli chcemy historie warunkow dla konkretnego id czujnika to wpisujemy na koncu h (h od history) np
+-idh id_czujnika -apkikey tutaj_wpisujemy_apikey
+np -idh 1060 -apikey 97ff2a53cb3e46c4a47f703a888bf8c0
+
+Jeśli chcemy aktualne warunki dla wspolrzednych geograficznych to wpisujemy -llc
+-llc wspolrzedna_x wspolrzedna_y -apikey tutaj_wpisujemy_apikey
+np -llc 50.06 19.93 -apikey 97ff2a53cb3e46c4a47f703a888bf8c0
+
+jesli chcemy historie dla wspolrzednych to wpisujemy -llh zamiast -llc
+np np -llh 50.06 19.93 -apikey 97ff2a53cb3e46c4a47f703a888bf8c0
+ */
 public class Program {
     public static void main (String[] args) {
     Double x=0.0,y=0.0;

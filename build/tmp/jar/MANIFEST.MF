@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: gson-1.7.2.jar httpclient-4.5.jar httpcore-4.4.1.jar commo
+ ns-logging-1.2.jar commons-codec-1.9.jar
+Main-Class: Program
+
