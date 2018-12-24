@@ -1,6 +1,6 @@
 How to use
 
-If you want current condition for sensor id then type (c - current) 
+If you want current condition for sensor id then type (c - current)
 -idc sensor_id -apkikey here_apikey
 for example: -idc 1060 -apikey 97ff2a53cb3e46c4a47f703a888bf8c0
 
